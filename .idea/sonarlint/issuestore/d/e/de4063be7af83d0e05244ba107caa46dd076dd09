@@ -1,0 +1,48 @@
+
+†
+java:S1319C"iThe type of "arrayList" should be an interface such as "List" rather than the implementation "ArrayList".(éÎ™ÿ8Í²¥Œ¾1
+D
+java:S1604~"(Make this anonymous inner class a lambda(µ¶é)8Î²¥Œ¾1
+K
+java:S1604…"(Make this anonymous inner class a lambda(¶àË²úÿÿÿÿ8Î²¥Œ¾1
+F
+java:S1604"(Make this anonymous inner class a lambda(Æ‹¨8Ï²¥Œ¾1
+p
+java:S2095Á"MUse try-with-resources or close this "DatabaseHandler" in a "finally" clause.(Ò¹°Çøÿÿÿÿ8Âì¥Œ¾1
+z
+java:S1450;"XRemove the "btnCancel" field and declare it as a local variable in the relevant methods.(×Ö³Úûÿÿÿÿ8ì²¥Œ¾1
+{
+java:S1450<"YRemove the "btnConfirm" field and declare it as a local variable in the relevant methods.(é¯‹ÿÿÿÿÿ8ì²¥Œ¾1
+r
+java:S14505"URemove the "dateTv" field and declare it as a local variable in the relevant methods.(™º—¥8ì²¥Œ¾1
+~
+java:S14509"\Remove the "descriptionTv" field and declare it as a local variable in the relevant methods.(Â«±üÿÿÿÿ8ì²¥Œ¾1
+ƒ
+java:S1450:"aRemove the "expenseListLabelTv" field and declare it as a local variable in the relevant methods.(‡ŠÓ‘ûÿÿÿÿ8ì²¥Œ¾1
+w
+java:S14506"ZRemove the "isParkingTv" field and declare it as a local variable in the relevant methods.(ƒ¦äõ8í²¥Œ¾1
+t
+java:S14507"WRemove the "lengthTv" field and declare it as a local variable in the relevant methods.(—ºû8í²¥Œ¾1
+s
+java:S14508"VRemove the "levelTv" field and declare it as a local variable in the relevant methods.(¸³¤¦8í²¥Œ¾1
+v
+java:S14504"YRemove the "locationTv" field and declare it as a local variable in the relevant methods.(†ğÉ´8í²¥Œ¾1
+r
+java:S14503"URemove the "nameTv" field and declare it as a local variable in the relevant methods.( ”™ã8í²¥Œ¾1
+~
+java:S1450@"aRemove the "observationAdapter" field and declare it as a local variable in the relevant methods.(şãÊ¾8í²¥Œ¾1
+y
+java:S1450?"\Remove the "rvExpenseItem" field and declare it as a local variable in the relevant methods.(½ÏÉ8í²¥Œ¾1
+}
+java:S14502"[Remove the "titleConfirm" field and declare it as a local variable in the relevant methods.(±œüÿÿÿÿ8î²¥Œ¾1
+^	java:S107C"BConstructor has 12 parameters, which is greater than 7 authorized.(éÎ™ÿ8ï²¥Œ¾1
+\
+java:S1874©">Remove this use of "startActivityForResult"; it is deprecated.(¾ËõŸ8û²¥Œ¾1
+T
+java:S1874¼"1Remove this use of "getBitmap"; it is deprecated.(“ŸÌâüÿÿÿÿ8ş²¥Œ¾1
+Q
+java:S1874Ñ"3Remove this use of "insertImage"; it is deprecated.(´·Äè8³¥Œ¾1
+k
+java:S3252Ö"MUse static access with "android.provider.MediaStore$MediaColumns" for "DATA".(´Ë¡é8„³¥Œ¾1
+G
+java:S1068$"+Remove this unused "context" private field.(êİç8…³¥Œ¾1

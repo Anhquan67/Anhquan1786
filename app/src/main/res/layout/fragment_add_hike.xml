@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="20dp"
+    tools:context=".fragments.AddHikeFragment">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/alfa_slab_one"
+        android:text="Add new HIKE"
+        android:textColor="@color/black"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/nameEdt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/lora_regular"
+        android:hint="Name of trip"
+        android:textColor="@color/white"
+        android:padding="10dp"
+        android:background="@drawable/background_boder_3"
+        android:textColorHint="@color/white"
+        app:layout_constraintTop_toBottomOf="@+id/title" />
+
+    <EditText
+        android:id="@+id/locationEdt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/lora_regular"
+        android:hint="Location"
+        android:padding="10dp"
+        android:background="@drawable/background_boder_3"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        app:layout_constraintTop_toBottomOf="@+id/nameEdt" />
+
+    <TextView
+        android:id="@+id/dateEdtLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/lora_regular"
+        android:hint="Date of trip: "
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/descriptionEdt" />
+
+
+    <TextView
+        android:id="@+id/dateEdt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lora_regular"
+        android:hint="Choose date"
+        android:layout_marginStart="4dp"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        app:layout_constraintTop_toTopOf="@+id/dateEdtLabel"
+        app:layout_constraintBottom_toBottomOf="@+id/dateEdtLabel"
+        app:layout_constraintStart_toEndOf="@+id/dateEdtLabel"/>
+
+    <TextView
+        android:id="@+id/requires_risk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/lora_regular"
+        android:text="Parking available?"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dateEdtLabel" />
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/isParkingAvailable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:buttonTint="@color/purple_700"
+        app:layout_constraintBottom_toBottomOf="@id/requires_risk"
+        app:layout_constraintStart_toEndOf="@id/requires_risk"
+        app:layout_constraintTop_toTopOf="@id/requires_risk" />
+
+    <EditText
+        android:id="@+id/lengthEdt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/lora_regular"
+        android:inputType="numberDecimal"
+        android:hint="Length of trip"
+        android:padding="10dp"
+        android:background="@drawable/background_boder_3"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        app:layout_constraintTop_toBottomOf="@+id/locationEdt" />
+
+    <EditText
+        android:id="@+id/levelEdt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/lora_regular"
+        android:hint="Level of trip"
+        android:inputType="numberDecimal"
+        android:padding="10dp"
+        android:background="@drawable/background_boder_3"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lengthEdt" />
+
+    <EditText
+        android:id="@+id/descriptionEdt"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="10dp"
+        android:gravity="top"
+        android:background="@drawable/background_boder_3"
+        android:fontFamily="@font/lora_regular"
+        android:hint="Description"
+        android:paddingStart="10dp"
+        android:paddingTop="10dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        app:layout_constraintTop_toBottomOf="@+id/levelEdt" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="@color/black"
+        app:cornerRadius="15dp"
+        android:paddingVertical="10dp"
+        android:paddingHorizontal="30dp"
+        android:textSize="20sp"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:fontFamily="@font/alfa_slab_one"
+        android:text="Add Hike"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/isParkingAvailable" />
+</androidx.constraintlayout.widget.ConstraintLayout>

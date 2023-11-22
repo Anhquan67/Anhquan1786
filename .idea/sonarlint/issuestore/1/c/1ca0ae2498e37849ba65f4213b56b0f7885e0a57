@@ -1,0 +1,29 @@
+
+E
+java:S1604L"(Make this anonymous inner class a lambda(˜¿åì8©«ÃŒ¾1
+E
+java:S1604a"(Make this anonymous inner class a lambda(É›“•8©«ÃŒ¾1
+J
+java:S1604g"(Make this anonymous inner class a lambda(ì»İüÿÿÿÿ8©«ÃŒ¾1
+E
+java:S1604p"(Make this anonymous inner class a lambda(ŞÙ«‚8©«ÃŒ¾1
+E
+java:S1604v"(Make this anonymous inner class a lambda(Íû€Ğ8©«ÃŒ¾1
+F
+java:S1604"(Make this anonymous inner class a lambda(î„À–8ª«ÃŒ¾1
+K
+java:S1604 "(Make this anonymous inner class a lambda(ˆ×Üíûÿÿÿÿ8ª«ÃŒ¾1
+r
+java:S1450"URemove the "btnAdd" field and declare it as a local variable in the relevant methods.(áÂø8¼«ÃŒ¾1
+|
+java:S1450$"_Remove the "btnRefreshSearch" field and declare it as a local variable in the relevant methods.(É“ãş8½«ÃŒ¾1
+u
+java:S1450""XRemove the "btnSearch" field and declare it as a local variable in the relevant methods.(·×Â8½«ÃŒ¾1
+~
+java:S1450"\Remove the "listExpenseRv" field and declare it as a local variable in the relevant methods.(òğÎûÿÿÿÿÿ8½«ÃŒ¾1
+t
+java:S3776:"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(åÓÿÃøÿÿÿÿ8Æ«ÃŒ¾1
+H
+java:S1874a"+Remove this use of "yes"; it is deprecated.(É›“•8Í«ÃŒ¾1
+L
+java:S1874g"*Remove this use of "no"; it is deprecated.(ì»İüÿÿÿÿ8Í«ÃŒ¾1

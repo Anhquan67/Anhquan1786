@@ -1,0 +1,59 @@
+
+E
+java:S1604e"(Make this anonymous inner class a lambda(Æ‹¨8µª¾Œ¾1
+E
+java:S1604k"(Make this anonymous inner class a lambda(ùÊî¹8¶ª¾Œ¾1
+p
+java:S2095¸"MUse try-with-resources or close this "DatabaseHandler" in a "finally" clause.(Ò¹°Çøÿÿÿÿ8Ñª¾Œ¾1
+s
+java:S14508"VRemove the "btnEdit" field and declare it as a local variable in the relevant methods.(Çè8Øª¾Œ¾1
+r
+java:S1450."URemove the "dateTv" field and declare it as a local variable in the relevant methods.(™º—¥8Øª¾Œ¾1
+~
+java:S14502"\Remove the "descriptionTv" field and declare it as a local variable in the relevant methods.(Â«±üÿÿÿÿ8Øª¾Œ¾1
+t
+java:S14503"WRemove the "imgLabel" field and declare it as a local variable in the relevant methods.(úÛÑ8Øª¾Œ¾1
+w
+java:S1450/"ZRemove the "isParkingTv" field and declare it as a local variable in the relevant methods.(ƒ¦äõ8Øª¾Œ¾1
+t
+java:S14500"WRemove the "lengthTv" field and declare it as a local variable in the relevant methods.(—ºû8Ùª¾Œ¾1
+s
+java:S14501"VRemove the "levelTv" field and declare it as a local variable in the relevant methods.(¸³¤¦8Ùª¾Œ¾1
+v
+java:S1450-"YRemove the "locationTv" field and declare it as a local variable in the relevant methods.(†ğÉ´8Ùª¾Œ¾1
+r
+java:S1450,"URemove the "nameTv" field and declare it as a local variable in the relevant methods.( ”™ã8Ùª¾Œ¾1
+~
+java:S14507"aRemove the "observationAdapter" field and declare it as a local variable in the relevant methods.(şãÊ¾8Ùª¾Œ¾1
+y
+java:S14506"\Remove the "rvObservation" field and declare it as a local variable in the relevant methods.(æŞ’8Úª¾Œ¾1
+E
+java:S1185;"(Remove this method to simply inherit it.(ßìê¯8Şª¾Œ¾1
+a
+java:S1874">Remove this use of "startActivityForResult"; it is deprecated.(“Œñ¬ÿÿÿÿÿ8íª¾Œ¾1
+X
+java:S1874’":Remove this use of "requestPermissions"; it is deprecated.(÷È²º8íª¾Œ¾1
+a
+java:S1874š">Remove this use of "startActivityForResult"; it is deprecated.(“Œñ¬ÿÿÿÿÿ8îª¾Œ¾1
+]
+java:S1874œ":Remove this use of "requestPermissions"; it is deprecated.(å©¸¥ûÿÿÿÿ8ïª¾Œ¾1
+m
+java:S1874¡"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(Û›ë´øÿÿÿÿ8ïª¾Œ¾1
+`
+java:S1874¢"BRemove this use of "onRequestPermissionsResult"; it is deprecated.(Öƒà8ïª¾Œ¾1
+a
+java:S1874¥">Remove this use of "startActivityForResult"; it is deprecated.(“Œñ¬ÿÿÿÿÿ8ñª¾Œ¾1
+m
+java:S1874ª"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(ÉÎÍïıÿÿÿÿ8ñª¾Œ¾1
+[
+java:S1874«"8Remove this use of "onActivityResult"; it is deprecated.(ß¬©úÿÿÿÿ8òª¾Œ¾1
+T
+java:S1874·"1Remove this use of "getBitmap"; it is deprecated.(¤×‹üÿÿÿÿ8óª¾Œ¾1
+f
+java:S1117¸"CRename "databaseHandler" which hides the field declared at line 43.(Ò¹°Çøÿÿÿÿ8óª¾Œ¾1
+Q
+java:S1874Ä"3Remove this use of "insertImage"; it is deprecated.(´·Äè8õª¾Œ¾1
+k
+java:S3252É"MUse static access with "android.provider.MediaStore$MediaColumns" for "DATA".(´Ë¡é8öª¾Œ¾1
+k
+java:S3252Ë"MUse static access with "android.provider.MediaStore$MediaColumns" for "DATA".(ŞÿŞµ8öª¾Œ¾1
